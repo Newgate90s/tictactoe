@@ -1,4 +1,4 @@
-# Starts here
+ #Starts here
 # init vars
 # init board
 board = [' ' for x in range(10)]
@@ -6,17 +6,17 @@ board = [' ' for x in range(10)]
 
 # The board layout
 def board_layout(board):
-    print('   |   |')
+
     print(' ' + board[1] + ' | ' + board[2] + ' | ' + board[3])
-    print('   |   |')
+
     print('-----------')
-    print('   |   |')
+
     print(' ' + board[4] + ' | ' + board[5] + ' | ' + board[6])
-    print('   |   |')
+
     print('-----------')
-    print('   |   |')
+
     print(' ' + board[7] + ' | ' + board[8] + ' | ' + board[9])
-    print('   |   |')
+
 
 
 # Defines human move, move will be player input
@@ -134,17 +134,11 @@ def main():
     print('Welcome to Human vs AI Tic Tac Toe')
     print('\nRules: Pick 1-9 to try and get three X in a line')
     print('\nBoard: ')
-    print('   |   |  ')
-    print(''  '1  | 2 ' '| 3')
-    print('   |   |')
-    print('-----------')
-    print('   |   |  ')
-    print('' '4  | 5 ' '| 6')
-    print('   |   |')
-    print('-----------')
-    print('   |   | ')
-    print('' '7  | 8 '  '| 9')
-    print('   |   |')
+
+    print(''  '1 | 2 ' '| 3')
+    print('' '4 | 5 ' '| 6')
+    print('' '7 | 8 '  '| 9')
+
     start_game()
 
     print('\nGame Starts!')
@@ -190,9 +184,3 @@ def main():
 # Program starts here
 # Go to main game loop
 main()
-
-
-
-
-
-
